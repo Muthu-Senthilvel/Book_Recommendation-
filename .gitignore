@@ -1,0 +1,36 @@
+# Python specific
+*.pyc
+__pycache__/
+
+# Virtual Environment
+venv/
+env/
+*.env
+
+# Jupyter Notebooks
+.ipynb_checkpoints/
+
+# Data files (CSV, Excel, etc.)
+data/*.csv
+data/*.xlsx
+
+# Model checkpoints and saved models
+models/*.h5
+models/*.pth
+models/*.pkl
+
+# Log files
+logs/
+
+# Temporary files
+*.log
+*.tmp
+
+# IDE and editor files
+.vscode/
+.idea/
+*.code-workspace
+
+# System and configuration files
+.DS_Store
+Thumbs.db
